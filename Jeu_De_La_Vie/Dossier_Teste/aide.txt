@@ -1,0 +1,35 @@
+JEU DE LA VIE : OPTIONS ET COMMANDES DU PROGRAMME
+
+Afficher les noms et prénoms des concepteurs du jeu :
+	java -jar JeuDeLaVie.jar -name
+
+Afficher la liste des options du programme :
+	java -jar JeuDeLaVie.jar -h
+	
+Exécuter une simulation du jeu d'une durée d affichant les configurations du jeu et numéro de génération :
+	java -jar JeuDeLaVie.jar -s d fichier.lif
+	
+Calculer le type d'évolution du jeu avec ses caracteristiques, max répresente la durée maximal pour déduire les résultats du calcule :
+	java -jar JeuDeLaVie.jar -c max fichier.lif
+
+Calculer le type d'évolution de tous les jeux contenus dans le dossier passé en paramètre et affiche les résultats sous forme d'un fichier HTML :
+	java -jar JeuDeLaVie.jar -w max dossier
+	
+Exécuter une simulation du jeu d'une durée d affichant les configurations du jeu et numéro de génération sur un plateau fini:
+	java -jar JeuDeLaVie.jar -s d fichier.lif 2 
+	
+Calculer le type d'évolution du jeu avec ses caracteristiques, max répresente la durée maximal pour déduire les résultats du calcule sur un plateau fini:
+	java -jar JeuDeLaVie.jar -c max fichier.lif 2
+
+Calculer le type d'évolution de tous les jeux contenus dans le dossier passé en paramètre et affiche les résultats sous forme d'un fichier HTML sur un plateau fini:
+	java -jar JeuDeLaVie.jar -w max dossier 2
+	
+Exécuter une simulation du jeu d'une durée d affichant les configurations du jeu et numéro de génération sur un plateau fini:
+	java -jar JeuDeLaVie.jar -s d fichier.lif 3 
+	
+Calculer le type d'évolution du jeu avec ses caracteristiques, max répresente la durée maximal pour déduire les résultats du calcule sur un plateau circulaire:
+	java -jar JeuDeLaVie.jar -c max fichier.lif 3
+
+Calculer le type d'évolution de tous les jeux contenus dans le dossier passé en paramètre et affiche les résultats sous forme d'un fichier HTML sur un plateau circulaire:
+	java -jar JeuDeLaVie.jar -w max dossier 3
+	
